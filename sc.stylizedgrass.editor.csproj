@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D9436A54-783E-5B45-2F93-43DC2C28C78C}</ProjectGuid>
+    <ProjectGuid>{BED5F201-E35F-539B-28C9-D2FBA2455492}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>sc.stylizedgrass.editor</AssemblyName>
@@ -58,19 +58,19 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Stylized Grass Shader\Editor\ShaderConfigurator.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\ColorMapEditor.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\StylizedGrassRendererInspector.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\GrassColorMapRendererInspector.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\StylizedGrassGUI.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\GrassBenderInspector.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\MaterialUI.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\ColorMapInspector.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\AssetInfo.cs" />
-    <Compile Include="Assets\Stylized Grass Shader\Editor\StylizedGrassEditor.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\GrassBenderInspector.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\ColorMapEditor.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\StylizedGrassRendererInspector.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\StylizedGrassEditor.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\MaterialUI.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\GrassColorMapRendererInspector.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\ColorMapInspector.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\StylizedGrassGUI.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\ShaderConfigurator.cs" />
+    <Compile Include="Assets\Import Package\Stylized Grass Shader\Editor\AssetInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Stylized Grass Shader\Editor\sc.stylizedgrass.editor.asmdef" />
+    <None Include="Assets\Import Package\Stylized Grass Shader\Editor\sc.stylizedgrass.editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -447,10 +447,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -996,7 +992,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="sc.stylizedgrass.runtime.csproj">
-      <Project>{397FC45D-6D07-A6F5-D28C-511834FA9B7A}</Project>
+      <Project>{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}</Project>
       <Name>sc.stylizedgrass.runtime</Name>
     </ProjectReference>
   </ItemGroup>
