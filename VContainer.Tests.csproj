@@ -58,33 +58,33 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleLifetimeScope.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\UnityObjectResolverTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour3.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour2.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleChildLifetimeScope2.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\ContainerBuilderTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleDerivedMonoBehaviour.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\TypeAnalyzerTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleBaseMonoBehaviour.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Fixtures.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\ListPoolTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\FactoryTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\CappedArrayPoolTest.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\LifetimeScopeTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\UnityContainerBuilderTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\VirtualMemberTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleEntryPoint.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\EcsTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\CrashingSampleMonoBehaviour.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour3.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleLifetimeScope.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleBaseMonoBehaviour.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\UnityObjectResolverTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Fixtures.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\ContainerTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleChildLifetimeScope.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\ListPoolTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\UnityContainerBuilderTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\CrashingSampleMonoBehaviour.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour2.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\UniTaskTest.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\PlayerLoopItemTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\ScopedContainerTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\BaseClassPrivateMemberTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleEntryPoint.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\CappedArrayPoolTest.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\EntryPointTest.cs" />
-    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleChildLifetimeScope.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleMonoBehaviour.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\FactoryTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\TypeAnalyzerTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\BaseClassPrivateMemberTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleDerivedMonoBehaviour.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\VirtualMemberTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\Unity\Fixtures\SampleChildLifetimeScope2.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\ContainerBuilderTest.cs" />
+    <Compile Include="Assets\VContainer\Assets\Tests\ScopedContainerTest.cs" />
     <Compile Include="Assets\VContainer\Assets\Tests\Unity\PlayerLoopRunnerTest.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,25 +1,27 @@
-using VContainer;
-using VContainer.Unity;
 using UnityEngine;
+using VContainer.Unity;
+using VContainer;
 
 public class GameLifetimeScope : LifetimeScope
 {
-    [SerializeField] private Animator playerAnimator; // 在Inspector中拖拽赋值
+    [SerializeField] private Animator playerAnimator;
+    [SerializeField] private PlayerConfig playerConfig; // 在Inspector中配置
 
     protected override void Configure(IContainerBuilder builder)
     {
-        // 注册动画服务
+        // 注册服务
         builder.Register<AnimationService>(Lifetime.Singleton)
                .As<IAnimationService>();
-
-        // 注册输入服务
         builder.Register<InputService>(Lifetime.Singleton)
                .As<IInputService>();
 
-        // 注册玩家控制器
+        // 注册配置类实例
+        builder.RegisterInstance(playerConfig);
+
+        // 注册PlayerController
         builder.RegisterEntryPoint<PlayerController>(Lifetime.Scoped);
 
-        // 注册Animator（通过Inspector赋值）
+        // 注册Animator
         builder.RegisterInstance(playerAnimator);
     }
 }

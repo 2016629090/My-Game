@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\ZYL\\My Game\\My-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|d:\\zyl\\my game\\my-game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|d:\\zyl\\my game\\my-game\\assets\\scripts\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|d:\\zyl\\my game\\my-game\\assets\\scripts\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -36,33 +36,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputService.cs",
               "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T09:20:44.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAtwDUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T09:14:52.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AnimationService.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\AnimationService.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationService.cs",
               "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\AnimationService.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnimationService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T03:52:55.187Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLifetimeScope.cs",
               "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\GameLifetimeScope.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameLifetimeScope.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T03:17:42.192Z",
               "EditorCaption": ""

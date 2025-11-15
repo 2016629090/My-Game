@@ -3,6 +3,8 @@ using UnityEngine;
 public interface IAnimationService
 {
     void UpdateMovementAnimation(float horizontal, float vertical, bool isRunning);
+    void TriggerJump();
+    void SetGrounded(bool isGrounded);
 }
 
 public class AnimationService : IAnimationService
@@ -34,5 +36,13 @@ public class AnimationService : IAnimationService
 
         // 设置是否移动状态
         _animator.SetBool("IsMoving", speed > 0.1f);
+    }
+    public void TriggerJump()
+    {
+        _animator.SetTrigger("Jump"); // 触发跳跃动画
+    }
+    public void SetGrounded(bool isGrounded)
+    {
+        _animator.SetBool("IsGrounded", isGrounded); // 设置着地状态
     }
 }
