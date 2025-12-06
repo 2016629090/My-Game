@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>YY.RPGgame</RootNamespace>
     <ProjectGuid>{63CBD5BD-A99B-B510-5704-A87FC0501A95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,13 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsAnimatorParameterRemover.cs" />
-    <Compile Include="Assets\Scripts\AnimationService.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerMove.cs" />
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsAnimatorStateChanger.cs" />
-    <Compile Include="Assets\Scripts\InputService.cs" />
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsCamera.cs" />
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsCharacterController.cs" />
-    <Compile Include="Assets\Scripts\GameLifetimeScope.cs" />
+    <Compile Include="Assets\Scripts\Core\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import Package\Kevin Iglesias\Basic Motions\Textures\BasicMotionsShader.shader" />
@@ -1142,10 +1140,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
