@@ -1264,7 +1264,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.93, z: 0}
 --- !u!114 &1738115179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,21 +1277,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b734e8668e837b841a9cf3044a6e69e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterController: {fileID: 0}
+  characterController: {fileID: 1738115178}
   cameraTransform: {fileID: 0}
   movementSetting:
     walkSpeed: 2
     runSpeed: 5
+    jumpHeight: 2
+    gravity: -9.81
+    rotationSpeed: 10
+    groundCheckDistance: 0.2
+    groundCheckRadius: 0.3
+    groundLayer:
+      serializedVersion: 2
+      m_Bits: 64
   inputSetting:
     horizontalAxis: Horizontal
     verticalAxis: Vertical
-    jumpkey: 32
-    inputBufferTime: 0.1
+    jumpKey: 32
+    runKey: 304
+    jumpBufferTime: 0.1
   animationSetting:
-    animator: {fileID: 0}
+    animator: {fileID: 1738115180}
     speedParameter: Speed
     jumpTrigger: Jump
     isGroundedParameter: IsGrounded
+    verticalVelocityParameter: VerticalVelocity
+--- !u!95 &1738115180 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5794894658370936964, guid: 8e1471e805192fd4e902f7cc7eec8378, type: 3}
+  m_PrefabInstance: {fileID: 1016028800}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2056042908
 GameObject:
   m_ObjectHideFlags: 3

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ZYL\\My Game\\My-Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|d:\\zyl\\my game\\my-game\\assets\\scripts\\character\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InputService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InputService.cs",
-              "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InputService.cs",
-              "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InputService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBcAAAA8AAAAAAAAAA==",
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Character\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\PlayerMove.cs",
+              "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Character\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\PlayerMove.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T09:20:44.534Z",
+              "WhenOpened": "2025-12-06T07:26:56.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InputService.cs",
+              "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InputService.cs",
+              "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\InputService.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InputService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:20:44.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AnimationService.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\AnimationService.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationService.cs",
@@ -47,12 +62,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AnimationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:52:55.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T03:52:55.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameLifetimeScope.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\GameLifetimeScope.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLifetimeScope.cs",
@@ -60,8 +74,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameLifetimeScope.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:17:42.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T03:17:42.192Z"
             }
           ]
         }
