@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class LoadingScreenController : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class LoadingScreenController : MonoBehaviour
     [Header("加载设置")]
     public float minLoadingTime = 5f;
     public string sceneToLoad = "MainScene";
+    [SerializeField] private TextMeshProUGUI tip;
 
     private AsyncOperation loadingOperation;
+
+    [Header("调用按钮")]
+    [SerializeField] private Button button;
 
     void Start()
     {
@@ -21,7 +26,14 @@ public class LoadingScreenController : MonoBehaviour
         Material materialInstance = new Material(loadingMaterial);
         loadingImage.material = materialInstance;
 
+        button = GetComponent<Button>();
+        button.onClick.AddListener(LoadCG);
+    }
+
+    private void LoadCG()
+    {
         // 开始加载
+        loadingImage.gameObject.SetActive(true);
         StartCoroutine(LoadSceneAsync());
     }
 
@@ -67,6 +79,7 @@ public class LoadingScreenController : MonoBehaviour
         loadingImage.material.SetFloat("_Progress", 1f);
 
         // 显示"按任意键继续"
+        tip.gameObject.SetActive(true);
         yield return StartCoroutine(WaitForPlayerInput());
 
         // 激活场景
@@ -94,5 +107,7 @@ public class LoadingScreenController : MonoBehaviour
         // 清理材质实例
         if (loadingImage.material != null)
             Destroy(loadingImage.material);
+
+        button.onClick.RemoveListener(LoadCG);
     }
 }

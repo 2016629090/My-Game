@@ -244,7 +244,7 @@ fixed4 frag(v2f IN) : SV_Target
         // 例如：轻微提升对比度
         if (progress > 0.5f)
         {
-            finalColor = ApplyContrast(finalColor, 1.1f);
+            finalColor = ApplyContrast(finalColor, 1.0f);
         }
         
         return fixed4(finalColor, color.a);
