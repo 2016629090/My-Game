@@ -5,18 +5,14 @@ using UnityEngine;
 
 namespace YY.RPGgame
 {
-    public enum SceneType
-    {
-        MainMenu,
-        WorldMap,
-        TestWorld
-    }
+    /// <summary>
+    /// 场景管理器，处理加载场景，玩家传送
+    /// </summary>
     public class SceneManager : Singleton<SceneManager>
     {
         [SerializeField] private string loadingSceneName;
         [SerializeField] private float minLoadingTime = 5f;
 
-        private SceneType currentSceneType;
         private string targetSceneName;
         private float loadingStartTime;
         private bool isLoading = false;
@@ -26,18 +22,40 @@ namespace YY.RPGgame
         public event Action<string> OnSceneLoadCompleted;
         public event Action<float> OnLoadingProgress;
 
+        protected (Vector3 postion, Quaternion rotation)? m_nextSceneCoordinates;
+
         protected override void Initialize()
         {
             DontDestroyOnLoad(gameObject);
         }
 
-        public void LoadSceneAsync(string sceneName,SceneType sceneType, object sceneData = null)
+        /// <summary>
+        /// 设置下一场景中玩家的位置和旋转
+        /// </summary>
+        /// <param name="postion">世界空间中的位置</param>
+        /// <param name="rotation">世界空间中的旋转</param>
+        public virtual void SetNextSceneCoordinates(Vector3 postion,Vector3 rotation)
+        {
+            m_nextSceneCoordinates = new()
+            {
+                postion = postion,
+                rotation = Quaternion.Euler(rotation)
+            };
+        }
+        /// <summary>
+        /// 将玩家传送到下一个场景中的坐标
+        /// </summary>
+        public virtual void TeleportPlayer()
+        {
+
+        }
+
+        public void LoadSceneAsync(string sceneName, object sceneData = null)
         {
             if (isLoading) return;
             isLoading = true;
 
             targetSceneName = sceneName;
-            currentSceneType = sceneType;
 
             // 通知UI系统显示加载界面
             //UIManager.Instance?.ShowLoadingScreen();
@@ -96,13 +114,6 @@ namespace YY.RPGgame
             // 隐藏加载界面（通过UI系统）
             //UIManager.Instance?.HideLoadingScreen();
         }
-        private IEnumerator WaitForLoading(AsyncOperation op)
-        {
-            while (!op.isDone)
-            {
-                yield return null;
-            }
-        }
 
         //private IEnumerator InitializeScene()
         //{
@@ -142,15 +153,7 @@ namespace YY.RPGgame
         public void ReloadCurrentScene()
         {
             string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-            LoadSceneAsync(currentScene, currentSceneType);
-        }
-
-        /// <summary>
-        /// 获取当前场景类型
-        /// </summary>
-        public SceneType GetCurrentSceneType()
-        {
-            return currentSceneType;
+            LoadSceneAsync(currentScene);
         }
     }
 }
