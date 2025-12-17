@@ -1,7 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace YY.RPGgame
 {
@@ -16,6 +17,7 @@ namespace YY.RPGgame
         private string targetSceneName;
         private float loadingStartTime;
         private bool isLoading = false;
+        private CancellationTokenSource _loadingCts;
 
         //场景加载事件
         public event Action<string> OnSceneLoadStarted;
@@ -34,7 +36,7 @@ namespace YY.RPGgame
         /// </summary>
         /// <param name="postion">世界空间中的位置</param>
         /// <param name="rotation">世界空间中的旋转</param>
-        public virtual void SetNextSceneCoordinates(Vector3 postion,Vector3 rotation)
+        public virtual void SetNextSceneCoordinates(Vector3 postion, Vector3 rotation)
         {
             m_nextSceneCoordinates = new()
             {
@@ -42,6 +44,7 @@ namespace YY.RPGgame
                 rotation = Quaternion.Euler(rotation)
             };
         }
+
         /// <summary>
         /// 将玩家传送到下一个场景中的坐标
         /// </summary>
@@ -57,14 +60,18 @@ namespace YY.RPGgame
 
             targetSceneName = sceneName;
 
+            // 取消之前的加载（如果有）
+            CancelCurrentLoading();
+            _loadingCts = new CancellationTokenSource();
+
             // 通知UI系统显示加载界面
             //UIManager.Instance?.ShowLoadingScreen();
 
-            // 开始加载流程
-            StartCoroutine(LoadingCoroutine(sceneName, sceneData));
+            // 开始加载流程（使用 UniTask 替换协程）
+            LoadingUniTask(sceneName, sceneData, _loadingCts.Token).Forget();
         }
 
-        private IEnumerator LoadingCoroutine(string sceneName, object sceneData)
+        private async UniTaskVoid LoadingUniTask(string sceneName, object sceneData, CancellationToken cancellationToken)
         {
             loadingStartTime = Time.time;
 
@@ -74,7 +81,7 @@ namespace YY.RPGgame
             //if (!string.IsNullOrEmpty(loadingSceneName))
             //{
             //    var loadOp = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(loadingSceneName);
-            //    yield return WaitForLoading(loadOp);
+            //    await loadOp.ToUniTask(cancellationToken: cancellationToken);
             //}
 
             // 异步加载目标场景
@@ -85,12 +92,20 @@ namespace YY.RPGgame
             while (targetLoadOp.progress < 0.9f ||
                    (Time.time - loadingStartTime) < minLoadingTime)
             {
+                if (cancellationToken.IsCancellationRequested)
+                {
+                    isLoading = false;
+                    return;
+                }
+
                 float progress = Mathf.Clamp01(targetLoadOp.progress / 0.9f);
                 float timeProgress = (Time.time - loadingStartTime) / minLoadingTime;
                 float totalProgress = Mathf.Min(progress, timeProgress);
 
                 OnLoadingProgress?.Invoke(totalProgress);
-                yield return null;
+
+                // 替换 yield return null
+                await UniTask.Yield(PlayerLoopTiming.Update, cancellationToken);
             }
 
             //场景数据传递
@@ -102,10 +117,12 @@ namespace YY.RPGgame
 
             // 激活场景
             targetLoadOp.allowSceneActivation = true;
-            yield return new WaitUntil(() => targetLoadOp.isDone);
+
+            // 替换 yield return new WaitUntil(() => targetLoadOp.isDone);
+            await targetLoadOp.ToUniTask(cancellationToken: cancellationToken);
 
             // 场景加载完成后的初始化
-            //yield return InitializeScene();
+            // await InitializeScene();
 
             // 通知完成
             isLoading = false;
@@ -115,37 +132,18 @@ namespace YY.RPGgame
             //UIManager.Instance?.HideLoadingScreen();
         }
 
-        //private IEnumerator InitializeScene()
-        //{
-        //    // 根据场景类型执行不同的初始化逻辑
-        //    switch (currentSceneType)
-        //    {
-        //        case SceneType.MainMenu:
-        //            // 初始化主菜单
-        //            UIManager.Instance?.ShowMainMenu();
-        //            break;
-
-        //        case SceneType.WorldMap:
-        //            // 初始化世界地图
-        //            UIManager.Instance?.ShowHUD();
-        //            GameManager.Instance?.InitializeWorldMap();
-        //            break;
-
-        //        case SceneType.Battle:
-        //            // 初始化战斗
-        //            UIManager.Instance?.ShowBattleUI();
-        //            GameManager.Instance?.InitializeBattle();
-        //            break;
-
-        //        case SceneType.Town:
-        //            // 初始化城镇
-        //            UIManager.Instance?.ShowHUD();
-        //            GameManager.Instance?.InitializeTown();
-        //            break;
-        //    }
-
-        //    yield return null;
-        //}
+        /// <summary>
+        /// 取消当前加载
+        /// </summary>
+        private void CancelCurrentLoading()
+        {
+            if (_loadingCts != null && !_loadingCts.IsCancellationRequested)
+            {
+                _loadingCts.Cancel();
+                _loadingCts.Dispose();
+            }
+            _loadingCts = null;
+        }
 
         /// <summary>
         /// 重新加载当前场景
@@ -154,6 +152,11 @@ namespace YY.RPGgame
         {
             string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
             LoadSceneAsync(currentScene);
+        }
+
+        void OnDestroy()
+        {
+           CancelCurrentLoading();
         }
     }
 }

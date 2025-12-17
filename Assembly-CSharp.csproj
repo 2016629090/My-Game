@@ -72,6 +72,7 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Import Package\OrangedKeys\TitleFX\Materials\Shaders\TitleFX_VB.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Import Package\Kevin Iglesias\Basic Motions\Textures\BasicMotionsShader.shader" />
     <None Include="Assets\Shader\LoadingRevealShader.shader" />
@@ -970,6 +971,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -980,6 +985,14 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1004,6 +1017,10 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -1088,6 +1105,10 @@
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
