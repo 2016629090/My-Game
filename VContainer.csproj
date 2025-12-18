@@ -124,8 +124,8 @@
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Annotations\ILateTickable.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Internal\InstanceProviders\CollectionInstanceProvider.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Internal\InstanceProviders\ContainerInstanceProvider.cs" />
-    <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Unity\EntryPointExceptionHandler.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Unity\UnmanagedSystemRegistrationBuilder.cs" />
+    <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Unity\EntryPointExceptionHandler.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Registry.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\IInjector.cs" />
     <Compile Include="Assets\VContainer\Assets\VContainer\Runtime\Unity\InstanceProviders\NewGameObjectProvider.cs" />
