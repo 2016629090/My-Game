@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\ZYL\\My Game\\My-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E8B750C-1938-A33E-95B8-07BED2DDE182}|VContainer.Tests.csproj|d:\\zyl\\my game\\my-game\\assets\\vcontainer\\assets\\tests\\unity\\fixtures\\sampleentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E8B750C-1938-A33E-95B8-07BED2DDE182}|VContainer.Tests.csproj|solutionrelative:assets\\vcontainer\\assets\\tests\\unity\\fixtures\\sampleentrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\import package\\orangedkeys\\titlefx\\materials\\shaders\\titlefx_vb.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\scene\\loadingscreencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene\\loadingscreencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CBD5BD-A99B-B510-5704-A87FC0501A95}|Assembly-CSharp.csproj|D:\\ZYL\\My Game\\My-Game\\assets\\scripts\\core\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,21 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SampleEntryPoint.cs",
-              "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\VContainer\\Assets\\Tests\\Unity\\Fixtures\\SampleEntryPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\VContainer\\Assets\\Tests\\Unity\\Fixtures\\SampleEntryPoint.cs",
-              "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\VContainer\\Assets\\Tests\\Unity\\Fixtures\\SampleEntryPoint.cs",
-              "RelativeToolTip": "Assets\\VContainer\\Assets\\Tests\\Unity\\Fixtures\\SampleEntryPoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:07:11.145Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -71,19 +54,21 @@
               "RelativeToolTip": "Assets\\Import Package\\OrangedKeys\\TitleFX\\Materials\\Shaders\\TitleFX_VB.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-12-17T07:07:04.014Z"
+              "WhenOpened": "2025-12-17T07:07:04.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Core\\SceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\SceneManager.cs",
               "ToolTip": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Core\\SceneManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\SceneManager.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwGsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T06:12:01.198Z"
+              "WhenOpened": "2025-12-13T06:12:01.198Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "LoadingRevealShader.shader",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Shader\\LoadingRevealShader.shader",
               "RelativeDocumentMoniker": "Assets\\Shader\\LoadingRevealShader.shader",
@@ -111,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Singleton.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Core\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Singleton.cs",
@@ -123,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\Character\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\PlayerMove.cs",
@@ -135,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "AnimationService.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\AnimationService.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationService.cs",
@@ -147,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "GameLifetimeScope.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\My-Game\\Assets\\Scripts\\GameLifetimeScope.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLifetimeScope.cs",

@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ZYL\\My Game\\",
+  "WorkspaceRootPath": "D:\\ZYL\\My Game\\My-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{397FC45D-6D07-A6F5-D28C-511834FA9B7A}|sc.stylizedgrass.runtime.csproj|d:\\zyl\\my game\\assets\\stylized grass shader\\runtime\\stylizedgrassrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{397FC45D-6D07-A6F5-D28C-511834FA9B7A}|sc.stylizedgrass.runtime.csproj|solutionrelative:assets\\stylized grass shader\\runtime\\stylizedgrassrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ZYL\\My Game\\Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,13 +20,11 @@
               "DocumentIndex": 0,
               "Title": "StylizedGrassRenderer.cs",
               "DocumentMoniker": "D:\\ZYL\\My Game\\Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
-              "RelativeDocumentMoniker": "Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
+              "RelativeDocumentMoniker": "..\\Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
               "ToolTip": "D:\\ZYL\\My Game\\Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
-              "RelativeToolTip": "Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAADwv8gAAAABAAAAAAAAAA==",
+              "RelativeToolTip": "..\\Assets\\Stylized Grass Shader\\Runtime\\StylizedGrassRenderer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:12:04.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:12:04.263Z"
             }
           ]
         }
