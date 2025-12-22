@@ -175,7 +175,7 @@ namespace YY.RPGgame
 
         #endregion
 
-        #region 地面检测（修复版本）
+        #region 地面检测
 
         private void HandleGroundCheck()
         {
@@ -291,7 +291,7 @@ namespace YY.RPGgame
 
         #endregion
 
-        #region 跳跃处理（修复版本）
+        #region 跳跃处理
 
         private void HandleJump()
         {
@@ -341,7 +341,7 @@ namespace YY.RPGgame
 
         #endregion
 
-        #region 状态更新（修复版本）
+        #region 状态更新
 
         private void UpdateState()
         {
@@ -395,7 +395,7 @@ namespace YY.RPGgame
 
         #endregion
 
-        #region 动画更新（修复版本）
+        #region 动画更新
 
         private void UpdateAnimations()
         {
