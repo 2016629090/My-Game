@@ -1,0 +1,675 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.45f2c1 (8058fe21db2f) revision 8411390'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'zh' Physical Memory: 32422 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\DownLoad\2021.3.45f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/MyGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55812
+Successfully changed project path to: D:/Unity/MyGame
+D:/Unity/MyGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24808] Host "[IP] 192.168.199.116 [Port] 0 [Flags] 2 [Guid] 2706156412 [EditorId] 2706156412 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AQ5IMAJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24808] Host "[IP] 192.168.199.116 [Port] 0 [Flags] 2 [Guid] 2706156412 [EditorId] 2706156412 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AQ5IMAJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 54.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f2c1 (8058fe21db2f)
+[Subsystems] Discovering subsystems at path D:/DownLoad/2021.3.45f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/MyGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/DownLoad/2021.3.45f2c1/Editor/Data/Managed'
+Mono path[1] = 'D:/DownLoad/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/DownLoad/2021.3.45f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/DownLoad/2021.3.45f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001148 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (383ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (62ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (692ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5189 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.8 MB). Loaded Objects now: 5646.
+Memory consumption went from 213.3 MB to 212.5 MB.
+Total: 3.465000 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.172300 ms MarkObjects: 2.677500 ms  DeleteObjects: 0.263600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17856.667624 seconds.
+  path: Assets/Import Package/Sword_sheath_AnimSet
+  artifactKey: Guid(20103b1161914bfe9b44a26a97396e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Sword_sheath_AnimSet using Guid(20103b1161914bfe9b44a26a97396e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99abcd6ec2558c87cd9c6ddefa51f20c') in 0.018240 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.280257 seconds.
+  path: Assets/Import Package/Stylized Grass Shader
+  artifactKey: Guid(eb3d0ccdc7de8ef469fa1f3283c44a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Stylized Grass Shader using Guid(eb3d0ccdc7de8ef469fa1f3283c44a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b83bebdaf2bc706ff2b2304506b852') in 0.008451 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.530676 seconds.
+  path: Assets/Import Package/Stylized Grass Shader/Materials/Textures
+  artifactKey: Guid(7fb8de960d853dd458620e7f796bae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Stylized Grass Shader/Materials/Textures using Guid(7fb8de960d853dd458620e7f796bae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cfeaf9be6ecaf445ea9a13ae459891') in 0.009322 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.238402 seconds.
+  path: Assets/Import Package/Sword_sheath_AnimSet/Animation/Humanoid/combo03_2.fbx
+  artifactKey: Guid(d6cf0d8a6bb9eac4bb141c0692bf7058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Sword_sheath_AnimSet/Animation/Humanoid/combo03_2.fbx using Guid(d6cf0d8a6bb9eac4bb141c0692bf7058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906d94ead02a6d7bfd527c967221ebbf') in 0.238702 seconds 
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 2.848326 seconds.
+  path: Assets/Import Package/OrangedKeys
+  artifactKey: Guid(99a4f13e127c3a84ea2e8d75f28eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/OrangedKeys using Guid(99a4f13e127c3a84ea2e8d75f28eb560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aceb0d03dce2d1591927d1da24c0efd1') in 0.008991 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.470311 seconds.
+  path: Assets/Import Package/Kevin Iglesias/Basic Motions/Textures/DummyMale/BasicMotions_DummyMale-Metallic.png
+  artifactKey: Guid(04f2549d8ac495d4a8840510be7182c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Kevin Iglesias/Basic Motions/Textures/DummyMale/BasicMotions_DummyMale-Metallic.png using Guid(04f2549d8ac495d4a8840510be7182c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d28c34f9194f5c0daba19a52632d5d') in 0.072669 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.593893 seconds.
+  path: Assets/Import Package/Kevin Iglesias/Human Character Dummy/Textures/HumanCharacterDummy_ColorPalette.png
+  artifactKey: Guid(7bb2015627426e34f80ef3235d97c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Kevin Iglesias/Human Character Dummy/Textures/HumanCharacterDummy_ColorPalette.png using Guid(7bb2015627426e34f80ef3235d97c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882604533d5121a1d37551bd0b9bb56f') in 0.019288 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.447500 seconds.
+  path: Assets/Import Package/Kevin Iglesias
+  artifactKey: Guid(08af06393c9085b4cb1982b8279fd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Kevin Iglesias using Guid(08af06393c9085b4cb1982b8279fd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc5b00a4a6aa35f90e0860842362cbb') in 0.008885 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.821554 seconds.
+  path: Assets/Import Package/Hovl Studio/Render Pipelines support/Shaders/HDRP_Blend_TwoSides.shadergraph
+  artifactKey: Guid(10116e72e3509994eb7ba918cff290e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Render Pipelines support/Shaders/HDRP_Blend_TwoSides.shadergraph using Guid(10116e72e3509994eb7ba918cff290e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76474420423ce9c9684f46a3ad561d4') in 0.010153 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.438001 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flare31.png
+  artifactKey: Guid(dfb4734485aa8314d9d34692567833d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flare31.png using Guid(dfb4734485aa8314d9d34692567833d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c6742e92483f0c37112994a4935403') in 0.016232 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.131266 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient17.png
+  artifactKey: Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient17.png using Guid(61e68320eb0a34646ae9e7855bba9d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04306df317ee29cd7ab6db4dea5dd93e') in 0.014418 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient3r.png
+  artifactKey: Guid(ed3a5efebe958ba429d350e04f14d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient3r.png using Guid(ed3a5efebe958ba429d350e04f14d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9069c9f69bcd3b9613d6b022e8f4db') in 0.013358 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.748507 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Noise35t.png
+  artifactKey: Guid(beea0694d337e23449c7d21e4dfef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Noise35t.png using Guid(beea0694d337e23449c7d21e4dfef1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14361c2b83d2ea1622602097f3c621c') in 0.014979 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.156761 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Noise62.png
+  artifactKey: Guid(24d73a0978aa8264d8d2eafb48f370bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Noise62.png using Guid(24d73a0978aa8264d8d2eafb48f370bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83b66eb10d16b69f34837ee3ea2c437') in 0.013199 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.683584 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Models/Cell.fbx
+  artifactKey: Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Models/Cell.fbx using Guid(71ed97187ac84c94ab903c47a50d507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462029880146513d0005b54fae063efa') in 0.014508 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.616387 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail70.png
+  artifactKey: Guid(50c4a6456461a2e4f9c41755e6002738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail70.png using Guid(50c4a6456461a2e4f9c41755e6002738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8b6490f674ac47c578cac6fdd00098') in 0.013007 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.720935 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flash30.png
+  artifactKey: Guid(1308c9c52517e324bade2e62e31ac124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flash30.png using Guid(1308c9c52517e324bade2e62e31ac124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c98227104e92c130b9d75fdadd712ba') in 0.015094 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.977498 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Models/QuadToCircle.fbx
+  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bc452635f68f274003d3d8b6aef196') in 0.020159 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.803021 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs
+  artifactKey: Guid(a1114be845e75aa47a7e2aa04edc8175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs using Guid(a1114be845e75aa47a7e2aa04edc8175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408446662b161b3f17ee6ffb49517d13') in 0.009332 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.721285 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 3.prefab
+  artifactKey: Guid(3be98662c9e7ef5468cb9c4e11010dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 3.prefab using Guid(3be98662c9e7ef5468cb9c4e11010dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a953b6aea3e0bd212f8fae478eb3c1') in 0.068083 seconds 
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.477768 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 7.prefab
+  artifactKey: Guid(bfbc37d0bc0e8ff4082a8b2894b3a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 7.prefab using Guid(bfbc37d0bc0e8ff4082a8b2894b3a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _GrabTexture (type 4 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:446)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:339)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:294)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs line 446]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_ST (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:446)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:339)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:294)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs line 446]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_TexelSize (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:446)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:339)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:294)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs line 446]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_HDR (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData,bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:446)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:339)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs:294)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRenderPipeline.cs line 446]
+
+ -> (artifact id: 'd930c80bd149031f7cdabac0938379ac') in 0.033079 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.154202 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 1.prefab
+  artifactKey: Guid(5bea49531fc500c408823a2e2863106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 1.prefab using Guid(5bea49531fc500c408823a2e2863106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179cd22ff89b10fd243a058abacac1da') in 0.045771 seconds 
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.953228 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 4.prefab
+  artifactKey: Guid(e60d36cff17a1ce4db49ef54f9e72f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 4.prefab using Guid(e60d36cff17a1ce4db49ef54f9e72f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7f2cff28297fbf4680aa25e9e29948') in 0.015894 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.717873 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 2.prefab
+  artifactKey: Guid(231e3be01ac50c047bb16d07fd8d2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Prefabs/Sword Slash 2.prefab using Guid(231e3be01ac50c047bb16d07fd8d2ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ab5366638a8d47b8cfa53dab533c72') in 0.041061 seconds 
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 9.624290 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Lightning10.png
+  artifactKey: Guid(8d08796b1c2c696408f8d6d41936cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Lightning10.png using Guid(8d08796b1c2c696408f8d6d41936cd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02c02aba8eb5a8eda0ed75711922a50') in 0.012039 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.608201 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Motion3.png
+  artifactKey: Guid(42ce479d312017844bb356fb92789c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Motion3.png using Guid(42ce479d312017844bb356fb92789c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e60f3d10d424e5269d833b9bd51c07') in 0.012003 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.386288 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Demo scene/Sword slash demo.unity
+  artifactKey: Guid(6c7204268b2cc9547ae52fd23e80e7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Demo scene/Sword slash demo.unity using Guid(6c7204268b2cc9547ae52fd23e80e7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c60e848aa7b5339dd3763ef43478284') in 0.012518 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+New Universal Render Pipeline Asset_Renderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs:185)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs:80)
+UnityEngine.Rendering.Universal.UniversalRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRendererData.cs:282)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs Line: 185)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (713ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (377.9 KB). Loaded Objects now: 5765.
+Memory consumption went from 217.7 MB to 217.4 MB.
+Total: 3.644400 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.182200 ms MarkObjects: 2.944500 ms  DeleteObjects: 0.086800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.647719 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flash31.png
+  artifactKey: Guid(5bbdafca0dc4e1e43aed87a64e12484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Flash31.png using Guid(5bbdafca0dc4e1e43aed87a64e12484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655d4c5185e14d1e0a7386d7c2cea101') in 0.046629 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.892374 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Point12.png
+  artifactKey: Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Point12.png using Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9fc32199c17f2839a5ea6fae8f7602') in 0.012812 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.816716 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Stone3.png
+  artifactKey: Guid(66a3f4188e734d947a4c6a47225252f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Stone3.png using Guid(66a3f4188e734d947a4c6a47225252f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a82e0ef5cb1a97524bf759a1fc2386') in 0.011877 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.485394 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient11.png
+  artifactKey: Guid(e535306ab7c05d54294264b1d2c16fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Gradient11.png using Guid(e535306ab7c05d54294264b1d2c16fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf6e42bdf033ed8d3585cee1ba57003') in 0.012803 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.480110 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Models/QuadToCircle6.fbx
+  artifactKey: Guid(a75da2e871d109045acc46ab91e14ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Models/QuadToCircle6.fbx using Guid(a75da2e871d109045acc46ab91e14ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1999d6c604a02cfcdf69c181377162fd') in 0.133068 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.112867 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Materials/Point11cg.mat
+  artifactKey: Guid(c90a3c23b0fc60244a9f3588ff9e721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Materials/Point11cg.mat using Guid(c90a3c23b0fc60244a9f3588ff9e721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483fe306a1bc3982f2d1b84b149fdfcc') in 0.018344 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.583805 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Models/IceSpikes2.fbx
+  artifactKey: Guid(b9ce37055ebde674f81e44fcd35f6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Models/IceSpikes2.fbx using Guid(b9ce37055ebde674f81e44fcd35f6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dcbb993fe384ca2bbeb17cf03f3823') in 0.016259 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.635628 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail21.png
+  artifactKey: Guid(0d1fb353c40bd6345af42a3b4f0bdb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail21.png using Guid(0d1fb353c40bd6345af42a3b4f0bdb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15df80af2b6fa85729579a51e0afc9ec') in 0.012039 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.268629 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail71.png
+  artifactKey: Guid(b3c5280e694544c4d9f81c8bdca77068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Textures/Trail71.png using Guid(b3c5280e694544c4d9f81c8bdca77068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f88df2f060f2104189b97edaf050e3') in 0.012813 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+New Universal Render Pipeline Asset_Renderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs:185)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs:80)
+UnityEngine.Rendering.Universal.UniversalRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/UniversalRendererData.cs:282)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/ScriptableRendererData.cs Line: 185)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1572ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (909ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (794ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (378.9 KB). Loaded Objects now: 5819.
+Memory consumption went from 217.0 MB to 216.6 MB.
+Total: 3.083700 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.586600 ms  DeleteObjects: 0.081700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160.335877 seconds.
+  path: Assets/Import Package/Hovl Studio/Sword slash VFX/Materials/Flash21bcg.mat
+  artifactKey: Guid(7dad299f9caed054ea10097fd11f0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Import Package/Hovl Studio/Sword slash VFX/Materials/Flash21bcg.mat using Guid(7dad299f9caed054ea10097fd11f0a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30c43034299e23b6b243beacbb25b7') in 0.145102 seconds 
+Number of asset objects unloaded after import = 3
