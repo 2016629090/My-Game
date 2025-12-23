@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>YY.RPGgame</RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{63CBD5BD-A99B-B510-5704-A87FC0501A95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsAnimatorParameterRemover.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerMove.cs" />
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsAnimatorStateChanger.cs" />
+    <Compile Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Demo scene\CameraHolder.cs" />
     <Compile Include="Assets\Scripts\Scene\LoadingScreenController.cs" />
     <Compile Include="Assets\Scripts\Core\Singleton.cs" />
     <Compile Include="Assets\Import Package\Kevin Iglesias\Basic Motions\_DemoScene\Scripts\BasicMotionsCamera.cs" />
@@ -73,24 +74,34 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Import Package\OrangedKeys\TitleFX\Materials\Shaders\TitleFX_VB.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Demo scene\HDRP and URP.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Render Pipelines support\Shaders\LWRP_LightGlow.shader" />
     <None Include="Assets\Import Package\Kevin Iglesias\Basic Motions\Textures\BasicMotionsShader.shader" />
     <None Include="Assets\Shader\LoadingRevealShader.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Libraries\Bending.hlsl" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Bending\GrassBendMesh.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\DissolveNoise.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\VContainer\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Libraries\Color.hlsl" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Add_Fresnel.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Ice.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Distortion.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Blend_TwoSides.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Blend_CenterGlow.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\ShadowPass.hlsl" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Terrain\TerrainSplatMask.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Render Pipelines support\Documentation.txt" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Demo scene\Readme.txt" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\StylizedGrassShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Terrain\TerrainAlbedo.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Lightning.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
@@ -99,12 +110,16 @@
     <None Include="Assets\Import Package\Stylized Grass Shader\Prefabs\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Libraries\Input.hlsl" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\BlendDistort.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\LightingPass.hlsl" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Scroll.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\DepthPass.hlsl" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Bending\Common.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Terrain\TerrainAlbedoAdd.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Render Pipelines support\Shaders\HDRP_LightGlow.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -112,7 +127,9 @@
     <None Include="Assets\UI\Fonts\7000常用字优化版.txt" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Terrain\TerrainSplatmaskPass.hlsl" />
     <None Include="Assets\Import Package\Stylized Grass Shader\Shaders\Libraries\Lighting.hlsl" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\Explosion.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Import Package\Hovl Studio\Sword slash VFX\Shaders\SwordSlash.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -971,24 +988,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UniTask.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UniTask.DOTween">
-      <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UniTask.Addressables">
-      <HintPath>Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
@@ -1017,10 +1022,6 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UniTask.Linq">
-      <HintPath>Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1087,16 +1088,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UniTask">
-      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1111,39 +1116,43 @@
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{66FBD204-958D-9950-DE8E-34970A4D3B5B}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{E3FCBCC5-D951-ED5C-0FF2-FC86CAC06D8B}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
     <ProjectReference Include="sc.stylizedgrass.runtime.csproj">
       <Project>{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}</Project>
       <Name>sc.stylizedgrass.runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="VContainer.Editor.csproj">
-      <Project>{BABE6627-05BD-642B-440B-3DA1A921CAF5}</Project>
-      <Name>VContainer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="sc.stylizedgrass.editor.csproj">
       <Project>{BED5F201-E35F-539B-28C9-D2FBA2455492}</Project>
       <Name>sc.stylizedgrass.editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5908751E-D3B1-B498-9B5C-7BE2BA6DA5CD}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
     <ProjectReference Include="sc.stylizedgrass.demo.runtime.csproj">
       <Project>{10352164-76CB-85A0-0F3E-422E56D6023F}</Project>
       <Name>sc.stylizedgrass.demo.runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="VContainer.csproj">
-      <Project>{24BA528B-7D1F-8E34-A264-2CBAE23A0A38}</Project>
-      <Name>VContainer</Name>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{B6FAFCDE-A65E-C70F-1239-BE4C858BB330}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{30E7AD46-A1E1-DE82-45B2-C8309DB627EC}</Project>
+      <Name>UniTask.DOTween</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
