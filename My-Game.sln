@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "UniTask.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{E84F88B9-C928-DB23-961A-ACB477F28432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{63CBD5BD-A99B-B510-5704-A87FC0501A95}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedgrass.runtime", "sc.stylizedgrass.runtime.csproj", "{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.stylizedgrass.editor", "sc.stylizedgrass.editor.csproj", "{BED5F201-E35F-539B-28C9-D2FBA2455492}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{63CBD5BD-A99B-B510-5704-A87FC0501A95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Addressables", "UniTask.Addressables.csproj", "{66FBD204-958D-9950-DE8E-34970A4D3B5B}"
 EndProject
@@ -41,6 +41,10 @@ Global
 		{E84F88B9-C928-DB23-961A-ACB477F28432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E84F88B9-C928-DB23-961A-ACB477F28432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E84F88B9-C928-DB23-961A-ACB477F28432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2527B99C-1DA1-EC9C-7770-D75F34D4BD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,10 +53,6 @@ Global
 		{BED5F201-E35F-539B-28C9-D2FBA2455492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED5F201-E35F-539B-28C9-D2FBA2455492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED5F201-E35F-539B-28C9-D2FBA2455492}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63CBD5BD-A99B-B510-5704-A87FC0501A95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66FBD204-958D-9950-DE8E-34970A4D3B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66FBD204-958D-9950-DE8E-34970A4D3B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66FBD204-958D-9950-DE8E-34970A4D3B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
