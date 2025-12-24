@@ -66,8 +66,6 @@ namespace YY.RPGgame
 
             // 触发事件
             onSkillUsed?.Invoke(skillData);
-
-            Debug.Log("释放成功");
             // 开始冷却
             StartCooldown();
         }
@@ -123,6 +121,7 @@ namespace YY.RPGgame
             while (currentCooldown > 0)
             {
                 currentCooldown -= Time.deltaTime;
+                transform.GetChild(1).GetComponent<Image>().fillAmount = currentCooldown / skillData.cooldown;
                 onCooldownChanged?.Invoke(CooldownPercent);
                 yield return null;
             }

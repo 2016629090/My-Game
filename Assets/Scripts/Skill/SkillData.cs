@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace YY.RPGgame
 {
-    [CreateAssetMenu(fileName ="newSkill",menuName ="RPG/Skill")]
+    [CreateAssetMenu(fileName = "newSkill", menuName = "RPG/Skill")]
     public class SkillData : ScriptableObject
     {
         [Header("基础信息")]
@@ -22,13 +22,19 @@ namespace YY.RPGgame
         public float manaCost = 10f;
         public float stimanaCost = 0f;
 
-        [Header("动画配置")] 
-        public string animationTrigger = "Attack"; 
+        [Header("动画配置")]
+        public string animationTrigger = "Attack";
         public bool lockMovement = true;
         public float animationDuration = 1.0f;
 
+        [Header("技能预制体")]
+        public GameObject prefab;
+        public Vector3 Pos;
+        public Quaternion rotation;
+
         [Header("技能效果")]
         public List<SkillEffect> effects = new List<SkillEffect>();
+
         
     }
     [System.Serializable]

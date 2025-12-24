@@ -18,10 +18,18 @@ MonoBehaviour:
   castTime: 0.5
   requireTarget: 0
   range: 5
-  cooldown: 2
+  cooldown: 3
   manaCost: 10
   stimanaCost: 0
   animationTrigger: SwordSpirit
   lockMovement: 1
-  animationDuration: 2
-  effects: []
+  animationDuration: 3
+  prefab: {fileID: 5206172413637126217, guid: 28ea31a178891f4428bbdf09a77a1ac0, type: 3}
+  Pos: {x: 0.635, y: 1.453, z: 0.858}
+  rotation: {x: 0.05607792, y: 0.014246983, z: 0.27690753, w: 0.959153}
+  effects:
+  - type: 0
+    value: 0
+    duration: 0
+    prefab: {fileID: 5206172413637126217, guid: 28ea31a178891f4428bbdf09a77a1ac0, type: 3}
+    audioEffect: {fileID: 0}

@@ -16,6 +16,8 @@ namespace YY.RPGgame
 
         private Coroutine currentAnimationCoroutine;
 
+        private SkillData skillData;
+
         private void Start()
         {
             // 自动获取组件
@@ -37,6 +39,8 @@ namespace YY.RPGgame
         public void PlaySkillAnimation(SkillData skill)
         {
             if (skill == null || animator == null) return;
+
+            skillData = skill;
 
             // 1. 触发事件
             onAnimationStart?.Invoke(skill.skillName);
@@ -106,11 +110,19 @@ namespace YY.RPGgame
                 string skillName = parts[0];
                 string eventType = parts[1];
 
+
+
                 switch (eventType)
                 {
                     case "SpawnProjectile":
                         // 生成投射物
-                        Debug.Log($"生成{skillName}的投射物");
+                        if(skillData.prefab != null)
+                        {
+                            Vector3 worldPosition = transform.position + skillData.Pos;
+                            GameObject effect = Instantiate(skillData.prefab, worldPosition, Quaternion.identity);
+                            effect.transform.rotation = skillData.rotation;
+                        }
+                        Debug.Log("生成投射物");
                         break;
 
                     case "PlaySound":
