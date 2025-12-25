@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651a0602e7afc034a961c26bb170dd9f, type: 3}
+  m_Name: "\u8FDE\u7EED\u5251\u6C14"
+  m_EditorClassIdentifier: 
+  skillName: 
+  description: 
+  icon: {fileID: 0}
+  castTime: 0.5
+  requireTarget: 0
+  range: 5
+  cooldown: 0
+  manaCost: 10
+  stimanaCost: 0
+  animationTrigger: Attack
+  lockMovement: 1
+  animationDuration: 1
+  prefab: {fileID: 0}
+  Pos: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 0}
+  effects: []

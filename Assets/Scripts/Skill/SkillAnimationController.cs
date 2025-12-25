@@ -97,12 +97,8 @@ namespace YY.RPGgame
                 //playerMove.SetMovementLock(false);
             }
         }
-
-        // 动画事件方法（在Animation Clip的关键帧中调用）
         public void OnAnimationEvent(string eventData)
         {
-            // eventData 格式可以是："技能名:事件类型"
-            // 例如："Fireball:SpawnProjectile"
 
             string[] parts = eventData.Split(':');
             if (parts.Length == 2)

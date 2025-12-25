@@ -31,5 +31,5 @@ MonoBehaviour:
   - type: 0
     value: 0
     duration: 0
-    prefab: {fileID: 5206172413637126217, guid: 28ea31a178891f4428bbdf09a77a1ac0, type: 3}
+    prefab: {fileID: 0}
     audioEffect: {fileID: 0}
