@@ -304,6 +304,25 @@ MonoBehaviour:
   onAnimationEnd:
     m_PersistentCalls:
       m_Calls: []
+--- !u!320 &18803384
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18803374}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 78c77dbe0b0513d48a32efffd1e32ed3, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4186848985717672683, guid: 78c77dbe0b0513d48a32efffd1e32ed3, type: 2}
+    value: {fileID: 18803380}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &50058422
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +848,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1269eaff5b9d7d843aca159e60a5bb09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 18803383}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1269eaff5b9d7d843aca159e60a5bb09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 18803384}
   m_SourcePrefab: {fileID: 100100000, guid: 1269eaff5b9d7d843aca159e60a5bb09, type: 3}
 --- !u!1 &595891491
 GameObject:
