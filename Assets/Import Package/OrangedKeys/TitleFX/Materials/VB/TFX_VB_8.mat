@@ -12,12 +12,16 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - UNITY_UI_ALPHACLIP
+  - _INVERSEDIRECTION_ON
   - _SHOWONLY_ON
   - _UPDOWNDIRECTION_ON
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _AUTOASPECT_ON
+  - _AUTOCLEANUP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -30,7 +34,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main:
-        m_Texture: {fileID: 2800000, guid: f5b3d283a618ca146984ea8d02dec8a7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6b2b58bcaa6f0444ab267d1c4f81083e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainMASK:
@@ -54,20 +58,27 @@ Material:
     - _1112Format: 0
     - _1112Format1: 0
     - _2Format2: 0
-    - _Animation_Factor: 1.53
+    - _Animation_Factor: 1
+    - _AspectRatio: 1
+    - _AutoAspect: 1
+    - _AutoCleanup: 1
     - _AutoManualAnimation: 0
+    - _CleanupThreshold: 1
     - _ColorMask: 15
-    - _DetailsMaskDistortionMult: 0.4
+    - _DetailsMaskDistortionMult: 0.537
     - _DetailsMaskDit: 0
+    - _FinalClarity: 1.78
     - _Float0: 0.4
     - _Format: 0
-    - _InverseDirection: 0
+    - _HeightScale: 1
+    - _InverseDirection: 1
     - _MainMask_Dist: 1
     - _Max: 0.2
     - _Min: 1
     - _O: 0.4
     - _Offset: 0.75
     - _ShowOnly: 1
+    - _ShowOriginalThreshold: 1
     - _Speed: 2
     - _Stencil: 0
     - _StencilComp: 8
@@ -81,14 +92,15 @@ Material:
     - _TransitionSpeed: 2
     - _UV_Scale: 2
     - _UpDownDirection: 1
-    - _UseUIAlphaClip: 0
-    - _VignetteMaskFallof: 0.298
-    - _VignetteMaskSize: 0.361
+    - _UseUIAlphaClip: 1
+    - _VignetteMaskFallof: 0.5
+    - _VignetteMaskSize: 1
+    - _WidthScale: 1
     - _XTiling: 1
     - _YTiling: 1
     - __dirty: 0
     - _uvoffset: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 2.3784142, g: 0.568954, b: 0, a: 0}
+    - _MainColor: {r: 21.78524, g: 21.78524, b: 21.78524, a: 1}
   m_BuildTextureStacks: []
