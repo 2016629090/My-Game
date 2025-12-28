@@ -97,45 +97,22 @@ namespace YY.RPGgame
                 //playerMove.SetMovementLock(false);
             }
         }
-        public void OnAnimationEvent(string eventData)
+        public void OnAnimationEvent(int eventId)
         {
-
-            string[] parts = eventData.Split(':');
-            if (parts.Length == 2)
+            if(skillData != null)
             {
-                string skillName = parts[0];
-                string eventType = parts[1];
+                SkillEffect effects = skillData.GetEffectById(eventId);
+                Debug.Log(effects.Pos);
 
+                Vector3 worldPosition = transform.position + effects.Pos;
+                GameObject effectObj = Instantiate(effects.prefab, worldPosition, Quaternion.identity);
 
+                Quaternion characterYRotation = Quaternion.Euler(0, transform.eulerAngles.y, 0);
+                Quaternion skillXRotation = Quaternion.Euler(transform.eulerAngles.x, 0, 0);
+                Quaternion skillZRotation = Quaternion.Euler(0, 0, effects.rotation.eulerAngles.z);
 
-                switch (eventType)
-                {
-                    case "SpawnProjectile":
-                        // 生成投射物
-                        if(skillData.prefab != null)
-                        {
-                            Vector3 worldPosition = transform.position + skillData.Pos;
-                            GameObject effect = Instantiate(skillData.prefab, worldPosition, Quaternion.identity);
-                            effect.transform.rotation = skillData.rotation;
-                        }
-                        Debug.Log("生成投射物");
-                        break;
-
-                    case "PlaySound":
-                        // 播放音效
-                        Debug.Log($"播放{skillName}的音效");
-                        break;
-
-                    case "DealDamage":
-                        // 造成伤害
-                        Debug.Log($"{skillName}造成伤害");
-                        break;
-
-                    case "EndAnimation":
-                        // 提前结束动画
-                        StopCurrentAnimation();
-                        break;
-                }
+                //effect.transform.rotation = skillData.rotation * transform.rotation;
+                effectObj.transform.rotation = characterYRotation * skillXRotation * skillZRotation;
             }
         }
     }

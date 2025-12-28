@@ -14,17 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillName: 
   description: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: cef5fed5925f6ab409c396a99bd31e60, type: 3}
   castTime: 0.5
   requireTarget: 0
   range: 5
-  cooldown: 0
+  cooldown: 10
   manaCost: 10
   stimanaCost: 0
-  animationTrigger: Attack
+  animationTrigger: ComboSwordSpirit
   lockMovement: 1
-  animationDuration: 1
+  animationDuration: 2.2
   prefab: {fileID: 0}
   Pos: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
-  effects: []
+  effects:
+  - effectId: 1
+    duration: 0
+    prefab: {fileID: 6791978968013378780, guid: 1a805a55794648f438522043ea4b6c5c, type: 3}
+    audioEffect: {fileID: 0}
+    Pos: {x: 0.119, y: 0.69, z: 1.248}
+    rotation: {x: 0.18301272, y: -0.68301266, z: 0.68301266, w: 0.18301272}

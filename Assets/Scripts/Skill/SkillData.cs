@@ -32,24 +32,36 @@ namespace YY.RPGgame
         public Vector3 Pos;
         public Quaternion rotation;
 
-        [Header("技能效果")]
+        [Header("技能效果和配置")]
         public List<SkillEffect> effects = new List<SkillEffect>();
 
-        
-    }
-    [System.Serializable]
-    public class SkillEffect
-    {
-        public enum EffectType
+
+        /// <summary>
+        /// 查找方法
+        /// </summary>
+        /// <param name="effectId">特效ID，在引擎中配置</param>
+        /// <returns></returns>
+        public SkillEffect GetEffectById(int effectId)
         {
-            Damage,
-            heal,
-            buff
+            foreach (SkillEffect effect in effects)
+            {
+                if (effect.effectId == effectId)
+                {
+                    return effect;
+                }
+            }
+            return null;
         }
-        public EffectType type;
-        public float value;
-        public float duration;
-        public GameObject prefab;
-        public AudioClip audioEffect;
     }
+
+}
+[System.Serializable]
+public class SkillEffect
+{
+    public int effectId = 1;
+    public float duration;
+    public GameObject prefab;
+    public AudioClip audioEffect;
+    public Vector3 Pos;
+    public Quaternion rotation;
 }

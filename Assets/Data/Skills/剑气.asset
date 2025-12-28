@@ -28,8 +28,9 @@ MonoBehaviour:
   Pos: {x: 0.635, y: 1.453, z: 0.858}
   rotation: {x: 0.05607792, y: 0.014246983, z: 0.27690753, w: 0.959153}
   effects:
-  - type: 0
-    value: 0
+  - effectId: 1
     duration: 0
-    prefab: {fileID: 0}
+    prefab: {fileID: 5206172413637126217, guid: 28ea31a178891f4428bbdf09a77a1ac0, type: 3}
     audioEffect: {fileID: 0}
+    Pos: {x: 0.635, y: 1.453, z: 0.858}
+    rotation: {x: 0.05607792, y: 0.014246983, z: 0.27690753, w: 0.959153}

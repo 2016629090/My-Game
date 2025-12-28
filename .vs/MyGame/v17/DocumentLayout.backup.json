@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "D:\\Unity\\MyGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\skill\\skillslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\skill\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|D:\\Unity\\MyGame\\assets\\scripts\\skill\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skilldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\skill\\skillanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|D:\\Unity\\MyGame\\assets\\scripts\\skill\\skillanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillanimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\skill\\skillmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|D:\\Unity\\MyGame\\assets\\scripts\\skill\\skillmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|d:\\unity\\mygame\\assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|D:\\Unity\\MyGame\\assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FFA8360-0BBF-7AA7-0617-18280CA03E00}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "NewBehaviourScript.cs",
+              "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\NewBehaviourScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NewBehaviourScript.cs",
+              "ToolTip": "D:\\Unity\\MyGame\\Assets\\Scripts\\NewBehaviourScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NewBehaviourScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:09:11.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SkillManager.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Skill\\SkillManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Skill\\SkillManager.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Skill\\SkillManager.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAcwGUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T12:08:09.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T12:08:09.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SkillData.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Skill\\SkillData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Skill\\SkillData.cs",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Skill\\SkillData.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T11:59:28.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T11:59:28.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SkillAnimationController.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Skill\\SkillAnimationController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Skill\\SkillAnimationController.cs",
@@ -72,25 +87,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Skill\\SkillAnimationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T11:00:41.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T11:00:41.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SkillSlot.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Skill\\SkillSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Skill\\SkillSlot.cs",
               "ToolTip": "D:\\Unity\\MyGame\\Assets\\Scripts\\Skill\\SkillSlot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Skill\\SkillSlot.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T10:40:13.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Core\\SceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\SceneManager.cs",
@@ -98,12 +112,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\SceneManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T14:58:34.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-21T14:58:34.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "D:\\Unity\\MyGame\\Assets\\Scripts\\Character\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\PlayerMove.cs",

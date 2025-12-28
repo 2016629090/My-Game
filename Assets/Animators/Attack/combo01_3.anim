@@ -72551,5 +72551,5 @@ AnimationClip:
     data: "\u5251\u5203:SpawnProjectile"
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 0
+    intParameter: 1
     messageOptions: 0
